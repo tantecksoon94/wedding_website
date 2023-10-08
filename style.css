@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 300vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,8 +17,8 @@ body {
 /* Book */
 .book {
     position: relative;
-    width: 3050px;
-    height: 1500px;
+    width: 650px;
+    height: 650px;
     transition: transform 0.5s;
 }
 
@@ -28,7 +28,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    perspective: 1500px;
+    perspective: 2500px;
 
 }
 
@@ -78,7 +78,7 @@ button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin: 300px;
+    margin: 160px;
     transition: transform 0.5s;
 }
 
